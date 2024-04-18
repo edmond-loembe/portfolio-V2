@@ -9,6 +9,7 @@ import Projects from '@/Components/Projects';
 import Footer from '@/Components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Head from 'next/head';
 
 const HomePage = () => {
     const [nav, setNav] = useState(false);
@@ -47,24 +48,34 @@ const HomePage = () => {
 
 
   return (
-    <div className='overflow-x-hidden'>
-        <div>
-            {/* NavBar */}
-                <MobileNav nav={nav} closeNav={closeNav} />
-                <Nav openNav={openNav} />
-            {/* Hero */}
-                <Hero />
-            <div className='relative z-[30]'>
-            {/* About */}
-                <About />
-            {/* Services */}
-                <Services />
-            {/* Skils */}
-                <Skils />
-            {/* Projects */}
-                <Projects />
-            {/* Footer */}
-                <Footer />
+    <div>
+        <Head>
+            <title>Edmond Loembe</title>
+            <meta name="description" content="Bienvenue sur le portfolio d'Edmond Loembe.
+                Découvrez mes projets, mes compétences et mon expérience en développement web."
+            />
+            <link rel="icon" href="/images/moi_ia3.PNG" />
+
+        </Head>
+        <div className='overflow-x-hidden'>
+            <div>
+                {/* NavBar */}
+                    <MobileNav nav={nav} closeNav={closeNav} />
+                    <Nav openNav={openNav} />
+                {/* Hero */}
+                    <Hero />
+                <div className='relative z-[30]'>
+                {/* About */}
+                    <About />
+                {/* Services */}
+                    <Services />
+                {/* Skils */}
+                    <Skils />
+                {/* Projects */}
+                    <Projects />
+                {/* Footer */}
+                    <Footer />
+                </div>
             </div>
         </div>
     </div>
