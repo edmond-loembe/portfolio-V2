@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h1 className='text-[25px] mb-[0.2rem] font-semibold text-slate-300'>Address</h1>
-                        <p className='text-[17px] w-[90%] text-white opacity-60'>7 rue du terroir de chaâlis villeron</p>
+                        <p className='text-[17px] w-[90%] text-white opacity-60'>Villeron</p>
                     </div>
                 </div>
                 <div className='flex items-center space-x-6'>
