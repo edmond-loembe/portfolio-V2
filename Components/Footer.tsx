@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div className='w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between'>
                 <div className='text-[16px] mb-[2rem] md:mb-0 text-white opacity-20'>
-                    © 2021 All rights reserved. Designed by Edmond Loembe
+                    © 2024 All rights reserved. Designed by Edmond Loembe
                 </div>
                 <div className='flex items-center space-x-10'>
                     <a href="https://www.instagram.com/edmond_l.s" target="_blank" rel="noopener noreferrer">
